@@ -84,6 +84,12 @@ function wptest_gblock_cgb_block_assets() { // phpcs:ignore
 			'editor_style'  => 'wptest_gblock-cgb-block-editor-css',
 		)
 	);
+
+	register_block_type(
+		'wptest-gblock/client-logos', [
+			'render_callback' => 'wptest_gblock_client_logos_callback'
+		]
+	);
 }
 
 // Hook: Block assets.

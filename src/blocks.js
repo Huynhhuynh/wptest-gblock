@@ -11,3 +11,4 @@
 
 import './block/block.js'
 import './hero-section/index'
+import './client-logos/index'
